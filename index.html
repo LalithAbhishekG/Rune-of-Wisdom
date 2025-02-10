@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Centered Image</title>
+    <style>
+
+        .heading{
+            font-size: 30px;
+            color: #b18200;
+        }
+
+            body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #380000;
+        }
+        .image-container {
+            padding: 30px;
+            background: rgb(2, 0, 95);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="heading"><h1>Jinx Hunt</h1></div>
+    <div class="image-container">
+        <img src="clue.jpg" alt="Clue Image">
+    </div>
 </body>
 </html>
